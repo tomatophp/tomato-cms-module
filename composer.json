@@ -47,6 +47,6 @@
         "tomatophp/tomato-forms-module": "^1.0",
         "tomatophp/tomato-category-module": "^1.0",
         "tomatophp/tomato-translations-module": "^1.0",
-        "laravel/dusk": "^7.8"
+        "laravel/dusk": "^8.0"
     }
 }
