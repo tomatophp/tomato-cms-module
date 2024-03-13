@@ -24,7 +24,7 @@
     @if (config("tomato-cms.features.comments"))
         <x-tomato-admin-relations-group :relations="['comments' => __('Comments')]">
             <x-tomato-admin-relations
-                :table="\TomatoPHP\TomatoCms\Tables\CommentTable::class"
+                :table="\Modules\TomatoCms\App\Tables\CommentTable::class"
                 :model="$model"
                 name="comments"
                 view="tomato-cms::comments.index"
