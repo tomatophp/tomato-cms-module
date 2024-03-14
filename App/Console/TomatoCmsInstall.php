@@ -4,7 +4,7 @@ namespace Modules\TomatoCms\App\Console;
 
 use Illuminate\Console\Command;
 use TomatoPHP\ConsoleHelpers\Traits\RunCommand;
-use TomatoPHP\TomatoCategory\Models\Type;
+use Modules\TomatoCategory\App\Models\Type;
 
 class TomatoCmsInstall extends Command
 {

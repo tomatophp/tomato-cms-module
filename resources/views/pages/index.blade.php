@@ -23,7 +23,7 @@
 
                 <x-splade-cell actions>
                     <div class="flex justify-start">
-                        @if(class_exists(\TomatoPHP\TomatoThemes\Http\Controllers\BuilderController::class))
+                        @if(class_exists(\Modules\TomatoThemes\App\Http\Controllers\BuilderController::class))
                             <x-tomato-admin-button type="icon" title="{{__('Page Builder')}}" :href="route('admin.pages.builder', $item->id)">
                                 <x-heroicon-s-building-library class="h-6 w-6"/>
                             </x-tomato-admin-button>

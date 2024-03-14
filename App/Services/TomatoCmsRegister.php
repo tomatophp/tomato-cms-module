@@ -4,7 +4,7 @@ namespace Modules\TomatoCms\App\Services;
 
 use Modules\TomatoCms\App\Services\Contracts\Page;
 use Modules\TomatoCms\App\Services\Contracts\Section;
-use TomatoPHP\TomatoForms\Models\Form;
+use Modules\TomatoForms\App\Models\Form;
 
 class TomatoCmsRegister
 {
